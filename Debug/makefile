@@ -14,6 +14,7 @@ RM := rm -rf
 -include src/components/LightSensor/subdir.mk
 -include src/components/Error/subdir.mk
 -include src/components/ESP8266/subdir.mk
+-include src/applications/measure-environment/subdir.mk
 -include src/subdir.mk
 -include Utilities/STM32F4-Discovery/subdir.mk
 -include Utilities/Components/wm8994/subdir.mk

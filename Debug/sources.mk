@@ -37,6 +37,7 @@ Utilities/Components/stmpe811 \
 Utilities/Components/ts3510 \
 Utilities/Components/wm8994 \
 Utilities/STM32F4-Discovery \
+src/applications/measure-environment \
 src/components/ESP8266 \
 src/components/Error \
 src/components/LightSensor \

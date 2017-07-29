@@ -14,7 +14,7 @@
 #ifdef USE_RTOS_SYSTICK
 #include <cmsis_os.h>
 #endif
-#include "stm32f4xx_it.h"
+#include <applications/measure-environment/stm32f4xx_it.h>
 
 #include "components/dht22/dht22.h"
 #include "stm32f4xx_hal_uart.h"

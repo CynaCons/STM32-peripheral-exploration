@@ -61,7 +61,6 @@ src/main.o: ../src/main.c \
  /home/cynako/Workspaces/ac6-workspace/STM32-peripherals-exploration/HAL_Driver/Inc/stm32f4xx_ll_usb.h \
  /home/cynako/Workspaces/ac6-workspace/STM32-peripherals-exploration/HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
  /home/cynako/Workspaces/ac6-workspace/STM32-peripherals-exploration/HAL_Driver/Inc/stm32f4xx_hal_hcd.h \
- ../src/stm32f4xx_it.h \
  /home/cynako/Workspaces/ac6-workspace/STM32-peripherals-exploration/HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  ../src/components/dht22/dht22.h \
  /home/cynako/Workspaces/ac6-workspace/STM32-peripherals-exploration/src/components/util.h \
@@ -69,7 +68,9 @@ src/main.o: ../src/main.c \
  ../src/components/Uart/UartTx.h ../src/components/Error/ErrorMemory.h \
  ../src/components/ESP8266/ESP8266.h \
  ../src/components/LightSensor/LightSensor.h \
- /home/cynako/Workspaces/ac6-workspace/STM32-peripherals-exploration/HAL_Driver/Inc/stm32f4xx_hal_adc.h
+ /home/cynako/Workspaces/ac6-workspace/STM32-peripherals-exploration/HAL_Driver/Inc/stm32f4xx_hal_adc.h \
+ /home/cynako/Workspaces/ac6-workspace/STM32-peripherals-exploration/src/applications/measure-environment/app_measureEnvironment.h \
+ /home/cynako/Workspaces/ac6-workspace/STM32-peripherals-exploration/src/applications/measure-environment/stm32f4xx_it.h
 
 /home/cynako/Workspaces/ac6-workspace/STM32-peripherals-exploration/CMSIS/device/stm32f4xx.h:
 
@@ -195,8 +196,6 @@ src/main.o: ../src/main.c \
 
 /home/cynako/Workspaces/ac6-workspace/STM32-peripherals-exploration/HAL_Driver/Inc/stm32f4xx_hal_hcd.h:
 
-../src/stm32f4xx_it.h:
-
 /home/cynako/Workspaces/ac6-workspace/STM32-peripherals-exploration/HAL_Driver/Inc/stm32f4xx_hal_uart.h:
 
 ../src/components/dht22/dht22.h:
@@ -216,3 +215,7 @@ src/main.o: ../src/main.c \
 ../src/components/LightSensor/LightSensor.h:
 
 /home/cynako/Workspaces/ac6-workspace/STM32-peripherals-exploration/HAL_Driver/Inc/stm32f4xx_hal_adc.h:
+
+/home/cynako/Workspaces/ac6-workspace/STM32-peripherals-exploration/src/applications/measure-environment/app_measureEnvironment.h:
+
+/home/cynako/Workspaces/ac6-workspace/STM32-peripherals-exploration/src/applications/measure-environment/stm32f4xx_it.h:
